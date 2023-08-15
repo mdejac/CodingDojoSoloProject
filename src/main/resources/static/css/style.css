@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+	background-color: #2196F3;
+	font-family:'Ubuntu', sans-serif;
+}
+
+a {
+	color:black;
+}
+
+#gmp-map {
+	flex: 1;
+	height: 100%;
+}
+
+#mapContainer {
+	height:100%;
+}
+
+.scroll-box {
+    padding: 5px 0;
+    height: 600px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+    background-color: whitesmoke;
+}
+
+.header {
+	background-color: #ffc107;
+}
+
+.table thead, .card-header{
+	background-color: #ffc107;
+}
+
+.border-black {
+    border: 1px solid black;
+}
+
+.selected-nav-option {
+	background-color: #4caf50;
+}
+
+.unselected-nav-option {
+	background-color: #ffd700;
+}
+
+.profile-card {
+	background-color: #F4A460;
+}
+
+.user-profile-image {
+	max-width: 75%;
+	max-height: 75%;
+	border-radius: 50%;
+}
+
+.user-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.event-card {
+	background-color : #CCCCCC;
+}
